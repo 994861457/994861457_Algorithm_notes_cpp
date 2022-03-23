@@ -7,7 +7,8 @@ sizeof(struct)的计算
 ## 1.4 c++各数据类型的内存大小（一个字节8位）https://blog.csdn.net/zcyzsy/article/details/77935651
 ## 1.5 c++函数调用栈https://www.cnblogs.com/zuixime0515/p/13663796.html    
 函数的栈为ebp（底） ~ esp（顶）这俩寄存器保存的地址之间。函数调用时，ebp入栈保存，然后esp内地址保存到。函数调用时参数入栈是从右往左，为了能够实现动态参数。
-## 1.6 虚函数表https://zhuanlan.zhihu.com/p/75172640
+## 1.6 虚函数表https://zhuanlan.zhihu.com/p/75172640  
+在编译阶段虚表就能编译出来。
 ## 1.7 malloc/free/new/delete  
 
 # 2.面向对象   
