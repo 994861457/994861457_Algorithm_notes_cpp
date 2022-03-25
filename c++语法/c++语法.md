@@ -10,7 +10,7 @@ sizeof(struct)的计算
 ## 1.6 虚函数表https://zhuanlan.zhihu.com/p/75172640  
 在编译阶段虚表就能编译出来。
 ## 1.7 malloc/free/new/delete  https://cloud.tencent.com/developer/article/1889881
-
+## 1.8 内存泄漏
 # 2.面向对象   
 ## 2.1 多态：多种形态，具体点就是去完成某个行为，当不同的对象去完成时会产生出不同的状态。  
 静态多态：模板，函数重载 ：在编译阶段完成，编译器可以优化，效率高  
