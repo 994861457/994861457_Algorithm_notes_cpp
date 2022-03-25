@@ -9,7 +9,7 @@ sizeof(struct)的计算
 函数的栈为ebp（底） ~ esp（顶）这俩寄存器保存的地址之间。函数调用时，ebp入栈保存，然后esp内地址保存到。函数调用时参数入栈是从右往左，为了能够实现动态参数。
 ## 1.6 虚函数表https://zhuanlan.zhihu.com/p/75172640  
 在编译阶段虚表就能编译出来。
-## 1.7 malloc/free/new/delete  
+## 1.7 malloc/free/new/delete  https://cloud.tencent.com/developer/article/1889881
 
 # 2.面向对象   
 ## 2.1 多态：多种形态，具体点就是去完成某个行为，当不同的对象去完成时会产生出不同的状态。  
