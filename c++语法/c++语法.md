@@ -29,7 +29,7 @@ malloc只关注申请空间大小，不会自动的通过数据类型来识别�
 this作用在类内部，不影响sizeof对象大小。编译器会自动将对象本身的地址作为一个隐含参数传递给函数，非静态成员函数的隐含形参，对各成员的访问均通过this进行。
 # 3.c++11新特性：  
 ## 3.1 智能指针https://blog.csdn.net/code_peak/article/details/119722167  
-## 3.2 NULL和nullptr   
+## 3.2 NULL和nullptr https://www.cnblogs.com/DswCnblog/p/5629073.html  
 ## 3.3 函数对象（仿函数） / 谓词https://blog.csdn.net/zhangyueweia/article/details/50440639?spm=1001.2101.3001.6650.1&depth_1-utm_relevant_index=2
 # n.待分类  
 ## n.1 函数指针：只写函数名默认当做函数指针，函数指针解引用加括号然后再用括号写入参数就可以调用。  
