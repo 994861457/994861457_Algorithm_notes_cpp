@@ -40,7 +40,7 @@ this作用在类内部，不影响sizeof对象大小。编译器会自动将对�
 ## 5.1 引用作为函数的返回值
 # n.待分类  
 ## n.1 函数指针：只写函数名默认当做函数指针，函数指针解引用加括号然后再用括号写入参数就可以调用。  
-## n.2 左值和右值 https://blog.csdn.net/hyman_yx/article/details/52044632    
+## n.2 左值和右值 https://blog.csdn.net/liuyuchen282828/article/details/103967143   
 视频：https://www.bilibili.com/video/BV1Vq4y1K7ut?spm_id_from=333.337.search-card.all.click 
 左值：可以取地址的有名字的  
 右值：没有名字的不能取地址的  
