@@ -35,7 +35,7 @@ this作用在类内部，不影响sizeof对象大小。编译器会自动将对�
 ## 3.4 类型推导auto / decltype :https://blog.csdn.net/qq_29426201/article/details/106051482
 # n.待分类  
 ## n.1 函数指针：只写函数名默认当做函数指针，函数指针解引用加括号然后再用括号写入参数就可以调用。  
-## n.2 左值和右值 https://blog.csdn.net/hyman_yx/article/details/52044632   
+## n.2 左值和右值 https://blog.csdn.net/hyman_yx/article/details/52044632  视频：https://www.bilibili.com/video/BV1Vq4y1K7ut?spm_id_from=333.337.search-card.all.click 
 左值：可以取地址的有名字的  
 右值：没有名字的不能取地址的  
 例如```int a = 32;```其中32是左值，把a看成一个盒子，盒子里面装着32，那么盒子就是左值，盒子里面装的32是右值。
