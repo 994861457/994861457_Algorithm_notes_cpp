@@ -32,7 +32,9 @@ this作用在类内部，不影响sizeof对象大小。编译器会自动将对�
 ## 3.1 智能指针https://blog.csdn.net/code_peak/article/details/119722167  
 ## 3.2 NULL和nullptr https://www.cnblogs.com/DswCnblog/p/5629073.html  
 ## 3.3 函数对象（仿函数） / 谓词https://blog.csdn.net/zhangyueweia/article/details/50440639?spm=1001.2101.3001.6650.1&depth_1-utm_relevant_index=2  
-## 3.4 类型推导auto / decltype :https://blog.csdn.net/qq_29426201/article/details/106051482
+## 3.4 类型推导auto / decltype :https://blog.csdn.net/qq_29426201/article/details/106051482  
+# 4.引用  
+## 4.1 c++中让常引用指向一个将亡值，那么这个将亡值的生命周期就会延长到和这个常引用相同。
 # n.待分类  
 ## n.1 函数指针：只写函数名默认当做函数指针，函数指针解引用加括号然后再用括号写入参数就可以调用。  
 ## n.2 左值和右值 https://blog.csdn.net/hyman_yx/article/details/52044632    
