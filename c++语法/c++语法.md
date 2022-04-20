@@ -34,7 +34,10 @@ this作用在类内部，不影响sizeof对象大小。编译器会自动将对�
 ## 3.3 函数对象（仿函数） / 谓词https://blog.csdn.net/zhangyueweia/article/details/50440639?spm=1001.2101.3001.6650.1&depth_1-utm_relevant_index=2  
 ## 3.4 类型推导auto / decltype :https://blog.csdn.net/qq_29426201/article/details/106051482  
 # 4.const  
-## 4.1 常指针、指针常量、常引用  
+## 4.1 常指针、指针常量、常引用    
+常指针(const指针）：指针不能改变指向，const在```*```后面。  
+指针常量：指针指向的内容是一个常量。
+常引用：无法改变引用的内容的值
 ## 4.2 c++中让常引用指向一个将亡值，那么这个将亡值的生命周期就会延长到和这个常引用相同。  
 # 5.引用（int &b = a）给变量取别名。  
 ## 5.1 引用作为函数的返回值https://blog.csdn.net/weixin_40539125/article/details/81410008    
