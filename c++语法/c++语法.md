@@ -36,7 +36,7 @@ this作用在类内部，不影响sizeof对象大小。编译器会自动将对�
 ## 3.2 NULL和nullptr https://www.cnblogs.com/DswCnblog/p/5629073.html  
 ## 3.3 函数对象（仿函数） / 谓词https://blog.csdn.net/zhangyueweia/article/details/50440639?spm=1001.2101.3001.6650.1&depth_1-utm_relevant_index=2  
 ## 3.4 类型推导auto / decltype :https://blog.csdn.net/qq_29426201/article/details/106051482    
-## 3.5 lambda（匿名）函数
+## 3.5 lambda（匿名）函数 https://blog.csdn.net/weixin_43919932/article/details/108910439?spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4.pc_relevant_default&utm_relevant_index=6
 # 4.const  
 ## 4.1 常指针、指针常量、常引用    
 常指针(const指针）：指针不能改变指向，const在```*```后面。  
