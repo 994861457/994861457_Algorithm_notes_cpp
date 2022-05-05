@@ -6,4 +6,7 @@
 ## ip地址  
 安装ip-tools，使用ipconfig获得主机ip地址。  
 ## vscode远程ssh连接服务器进行开发，使用xshell辅助访问服务器。通过秘钥文件和私钥访问linux可以不每次输入密码  ```ssh-keygen -t [rsa|dsa]```
-## test sfsdtges
+## gcc编译流程  
+源代码.c .h .cpp -（预处理器）-> 预处理后源代码 .i -（编译器）-> 汇编代码 .s-(汇编器) -> 目标代码.o -(链接器) -> 可执行文件 .exe .out    
+目标代码通过链接器和启动代码，库代码，其他目标代码链接在一起
+
