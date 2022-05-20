@@ -58,4 +58,5 @@ this作用在类内部，不影响sizeof对象大小。编译器会自动将对�
 视频：https://www.bilibili.com/video/BV1Vq4y1K7ut?spm_id_from=333.337.search-card.all.click 
 左值：可以取地址的有名字的  
 右值：没有名字的不能取地址的、将亡值，就是临时的马上生命周期会结束的值，比如说函数内部的一个变量作为返回值，这个变量即将死亡。  
-例如```int a = 32;```其中32是左值，把a看成一个盒子，盒子里面装着32，那么盒子就是左值，盒子里面装的32是右值。
+例如```int a = 32;```其中32是左值，把a看成一个盒子，盒子里面装着32，那么盒子就是左值，盒子里面装的32是右值。  
+## n.3 c语言字符串结束符 https://www.csdn.net/tags/MtjaQg1sMDMxNDMtYmxvZwO0O0OO0O0O.html
