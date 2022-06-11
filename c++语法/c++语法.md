@@ -61,4 +61,5 @@ this作用在类内部，不影响sizeof对象大小。编译器会自动将对�
 例如```int a = 32;```其中32是左值，把a看成一个盒子，盒子里面装着32，那么盒子就是左值，盒子里面装的32是右值。  
 ## n.3 c语言字符串结束符 https://www.csdn.net/tags/MtjaQg1sMDMxNDMtYmxvZwO0O0OO0O0O.html  
 ## n.4 char和unsigned char的区别  
-char 比unsigned char多了符号位，总容量都是1个字节。平时使用都一样，但是当char转换成int等类型时强制类型转换unsigned会带上符号位。
+char 比unsigned char多了符号位，总容量都是1个字节。平时使用都一样，但是当char转换成int等类型时强制类型转换unsigned会带上符号位。  
+无符号和有符号在保存的时候内容不变，只有你在把他当作有符号使用时，如输出（printf%d），就会带上符号
