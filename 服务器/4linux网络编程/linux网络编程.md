@@ -412,6 +412,7 @@ int optval = 1;
 setsockopt(lfd, SOL_SOCKET, SO_REUSEPORT, &optval, sizeof(optval));  
 ```  
 # IO多路复用  
+https://blog.csdn.net/m0_51319483/article/details/124264619
 ## select
 ```cpp
 int main() {
