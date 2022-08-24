@@ -412,6 +412,8 @@ int optval = 1;
 setsockopt(lfd, SOL_SOCKET, SO_REUSEPORT, &optval, sizeof(optval));  
 ```  
 # IO多路复用  
+IO: 主存从外设读取数据的过程  
+通过监听文件描述符来知道io事件的发生。
 https://blog.csdn.net/m0_51319483/article/details/124264619
 ## select
 ```cpp
@@ -996,8 +998,10 @@ int main() {
     return 0;
 }
 ```  
-# 本地套接字通信  
-memcpy(seraddr.sun_path, "server.sock");//char数组为多个字符修改需要strcpy
+# 本地套接字通信   
+1.struct sockaddr_un：进程间通信的一种方式是使用UNIX套接字，人们在使用这种方式时往往用的不是网络套接字，而是一种称为本地套接字的方式。这样做可以避免为黑客留下后门。  
+
+2.memcpy(seraddr.sun_path, "server.sock");//char数组为多个字符修改需要strcpy
 ```cpp
 //客户端
 int main() {
