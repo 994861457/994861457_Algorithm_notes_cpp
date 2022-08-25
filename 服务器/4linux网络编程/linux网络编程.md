@@ -1,5 +1,7 @@
 
-# tcp通信实现
+# tcp通信实现  
+listen的第二个参数：SYN队列（半连接队列）：当服务器端收到客户端的SYN报文时，会响应SYN/ACK报文，然后连接就会进入SYN RECEIVED状态，处于SYN RECEIVED状态的连接被添加到SYN队列，并且当它们的状态改变为ESTABLISHED时，即当接收到3次握手中的ACK分组时，将它们移动到accept队列。SYN队列的大小由内核参数/proc/sys/net/ipv4/tcp_max_syn_backlog设置。
+accept队列（完全连接队列）：accept队列存放的是已经完成TCP三次握手的连接，而accept系统调用只是简单地从accept队列中取出连接而已，并不是调用accept函数才会完成TCP三次握手，accept队列的大小可以通过listen函数的第二个参数控制。
 ## 服务器端  
 ```cpp  
 int main() {
