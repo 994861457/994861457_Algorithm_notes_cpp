@@ -89,3 +89,6 @@ linux操作系统（小端模式）            &emsp; 内存地址 &emsp; 低   
 ## n.7 extern  
 https://blog.csdn.net/qq_34170700/article/details/107349217
 变量加extern能够扩展作用域到本文件之外，所以头文件里的变量要加，但是函数不加加都行，加了也只是给其他程序员看的。
+## n.8 RAII机制  
+https://blog.csdn.net/wo198711203217/article/details/123960303
+在构造函数中通过指针传入创建的对象（不是类直接创建对象），在析构函数中释放。指针指针是很好的案例。
