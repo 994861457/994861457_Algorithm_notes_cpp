@@ -92,3 +92,4 @@ https://blog.csdn.net/qq_34170700/article/details/107349217
 ## n.8 RAII机制  
 https://blog.csdn.net/wo198711203217/article/details/123960303
 在构造函数中通过指针传入创建的对象（不是类直接创建对象），在析构函数中释放。指针指针是很好的案例。
+## n.9 临时对象或者临时变量的生命周期在while或者for循环中只有一次的循环。进入第二次循环就会调用析构函数
