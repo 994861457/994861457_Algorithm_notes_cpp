@@ -734,7 +734,7 @@ int main() {
 ```
 man XXX按两次tab能够显示XXX相关函数列表  
 # 3.13条件变量    
-https://blog.csdn.net/qq_39736982/article/details/82380689
+https://developer.aliyun.com/article/472476
 ```cpp
 /*
     条件变量的类型 pthread_cond_t
